@@ -7,10 +7,10 @@ import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion'
 import { Search, ShoppingCart, Menu, X, MessageCircle, Camera, Ruler, TrendingUp, ChevronDown, Star, Users, Zap, Globe, Moon, Sun } from 'lucide-react'
 
 const products = [
-  { id: 1, name: 'AI-Designed Blazer', price: 199.99, image: '/', rating: 4.8, reviews: 120 },
-  { id: 2, name: 'Smart Fabric Shirt', price: 89.99, image: '/', rating: 4.6, reviews: 95 },
-  { id: 3, name: 'Eco-Tech Jeans', price: 129.99, image: '/', rating: 4.9, reviews: 150 },
-  { id: 4, name: 'Adaptive Sneakers', price: 159.99, image: '/', rating: 4.7, reviews: 110 },
+  { id: 1, name: 'AI-Designed Blazer', price: 199.99, image: '/placeholder.svg?height=400&width=300', rating: 4.8, reviews: 120 },
+  { id: 2, name: 'Smart Fabric Shirt', price: 89.99, image: '/placeholder.svg?height=400&width=300', rating: 4.6, reviews: 95 },
+  { id: 3, name: 'Eco-Tech Jeans', price: 129.99, image: '/placeholder.svg?height=400&width=300', rating: 4.9, reviews: 150 },
+  { id: 4, name: 'Adaptive Sneakers', price: 159.99, image: '/placeholder.svg?height=400&width=300', rating: 4.7, reviews: 110 },
 ]
 
 const aiFeatures = [
